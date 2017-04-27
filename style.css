@@ -1,0 +1,291 @@
+html, body, header, main, footer, h1, ul, li{
+	margin: 0;
+	padding: 0;
+
+} 
+body{
+background-color: #d0d0d0;
+font-size: 62.5%;
+}
+.wrapper{
+	border: 1px solid black;
+	width: 960px;
+	height: 1800px;
+	margin: auto;
+}
+/* HEADER SECTION */
+header{
+	width: 960px;
+	height: 130px;
+	margin: auto;
+	background-color: #fff;
+
+}
+h1{
+	font-size: 2.6em;
+	color: #666;
+	font-family: 'Georgia Regular';
+	position: relative;
+	width: 240px;
+	display: inline-block;
+	top: 45px;
+	left: 30px;
+}
+h4{
+	position: relative;
+	top: 30px;
+	left: 30px;
+	width: 155px;
+	font-family: 'Georgia Regular';
+	font-size: 1.2em;
+	color: #999;
+}
+.search{
+	width: 215px;
+	height: 30px;
+	position: absolute;
+	top:0px;
+	right: 195px;
+	background-color: #ebebea;
+	border-radius: 0  0 8px 8px; 
+}
+.search i{
+	color: #9055a9;
+	float: right;
+	margin-top: 10px;
+	margin-right: 8px;
+}
+ul{
+	width: 540px;
+	float: right;
+}
+.nav li{
+	display: inline-block;
+	font-family: 'Georgia Regular';
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-right: 15px;
+	color: #666;
+}
+/* end of header */
+
+/* second section */
+.shout{
+	width: 960px;
+	height:100px;
+	background-color: #ebebea;
+	position: relative;
+	top: -10px;
+}
+.shout p{
+	color: #333;
+	font-family: 'Georgia Regular';
+	font-size: 2.2em;
+	width: 710px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 25px;
+}
+
+/* the edn of second section */
+
+/* SLIDER SECTION */
+	.slide{
+		width: 960px;
+		height: 380px;
+		background-color: pink;
+		position: relative;
+		top: -22px;
+		background-image: url('flowers.jpg') ;
+		background-repeat: no-repeat;
+	}
+#text{
+	width: 450px;
+	height: 120px;
+	background-color: #0f0f0f;
+	color: #b2b2b2;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	opacity: 0.8;
+}
+#text h3 {
+	width: 130px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+	font-family: 'Georgia Regular';
+	font-size: 16px;
+
+
+}
+#text p{
+	width: 410px;
+	position: relative;
+	top: 15px;
+	left: 20px;
+	text-align: left;
+	font-family: 'Georgia Regular';
+	font-size: 1.3em;
+	line-height: 20px;
+}
+
+/* the end of SLIDER */
+
+/* SRVICES SECTION */
+
+.services{
+	width: 960px;
+	height: 250px;
+	background-color: #fff;
+	position: relative;
+	top: -22px;
+
+}
+
+#serv1{
+	width: 270px;
+	height: 180px;
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	left: 40px;
+
+
+}
+#serv2{
+	width: 270px;
+	height: 180px;
+	position: relative;
+	top:-250px;
+	left: 340px;
+}
+#serv3{
+	width: 270px;
+	height: 180px;
+	position: relative;
+	top:-432px;
+	left: 640px;
+}
+#serv1 h3, #serv2 h3, #serv3 h3{
+	font-family: 'Georgia Regular';
+	font-size: 20px;
+	float: right;
+	margin-right: 25px;
+}
+#serv1 img, #serv2 img, #serv3 img{
+	width: 48px;
+	height:48px;
+	display: inline-block;
+	margin-top: 20px;
+}
+#serv1 p, #serv2 p, #serv3 p{
+	width: 200px;
+	float: right;
+	line-height: 20px;
+	font-family: 'Georgia Regular';
+	font-size: 13px;
+	margin-top: -10px;
+}
+
+#serv3 h3{
+	margin-top: -50px;
+}
+
+/* the end of services */
+
+/* THE FIFTH SECTION */
+.latest_work{
+	width: 960px;
+	height: 420px;
+	margin: auto;
+	position: relative;
+	top: -381px;
+	
+}
+.first, .second, .third {
+	width: 280px;
+	height: 325px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+	margin-top:30px;
+}
+.first img, .second img, .third img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.first p, .second p, .third p{
+	text-align: center;
+	width: 250px;
+	margin-left: 18px;
+
+}
+.first h3, .second h3, .third h3{
+	text-align: center;
+	margin-top: 20px;
+}
+/* THE END OF FIFTH SECTION */
+
+
+/* FOOTER */
+footer{
+	width: 960px;
+	height: 300px;
+	background-color: #fff;
+	position: relative;
+	top: -400px;
+}
+.contact, .links, .blog, .newsletter{
+	position: absolute;
+	top: 40px;
+	width: 200px;
+	height: 200px;
+}
+
+.contact{left: 30px;}
+.links{left: 260px;}
+.blog{right: 260px;}
+.newsletter{right: 30px}
+.ul_contact{
+	position: relative;
+left: 350px;
+}
+
+.w3-ul{
+	position: relative;
+	left: 360px;
+
+}
+
+/* COPYRIGHT SECTION */
+.copyright{
+	top:300px;
+	position: relative;
+	width: 960px;
+	display: inline-block;
+	height: 60px;
+	background-color: #444;
+}
+#copy{
+	width: 320px;
+	display: inline-block;
+	margin-top: 20px;
+	font-family: 'Georgia Regular';
+	font-size: 1.2em;
+	color: #d0d0d0;
+}
+#temp{
+	float: right;
+	width: 155px;
+	margin-top: 20px;
+	font-family: 'Georgia Regular';
+	font-size: 1.2em;
+	color: #d0d0d0;
+}
+
+
+}
